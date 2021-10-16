@@ -12,7 +12,7 @@ Vagrant.configure(2) do |config|
   
     node.vm.box               = "generic/ubuntu2004"
     node.vm.box_check_update  = false
-    node.vm.hostname          = "kmaste.batpool.com"
+    node.vm.hostname          = "kmaster.batpool.com"
 
     node.vm.network "private_network", ip: "192.168.58.100"
   
